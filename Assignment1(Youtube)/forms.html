@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            background-color:aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        First name: <br><input type="text" name="first_name" />
+        <br>
+        Last name: <br><input type="text" name="last_name" />
+        <br>
+        Password: <br><input type="password" name="password" /> <!--type passwor hide the text-->
+        <br>
+        <textarea rows="5" cols="50" name="description">
+            Enter description here...
+         </textarea><br>
+        <input type="checkbox" name="maths" value="on"> Maths
+        <input type="checkbox" name="physics" value="on"> Physics
+        <br>
+        <input type="radio" name="subject" value="maths"> Maths
+        <input type="radio" name="subject" value="physics"> Physics
+        <br>
+        <select name="dropdown">
+            <option value="Maths" selected>Maths</option>
+            <option value="Physics">Physics</option>
+            <option value="Maths" selected>urdu</option>
+            <option value="Physics">english</option>
+        </select>
+        <br>
+        <input type = "file" name = "fileupload" accept = "image/*" />  <!--for uploading yhe file-->
+        <br>
+        <input type = "submit" name = "submit" value = "Submit" />
+         <input type = "reset" name = "reset"  value = "Reset" />
+         <input type = "button" name = "ok" value = "OK" />
+         <input type = "image" name = "imagebutton" src = "/html/images/logo.png" />
+    </form>
+    <form>
+        <div class="forms" style = "margin-left: 40%; margin-right: 40%; border: 6px solid rgb(12, 136, 152); padding: 50px; border-radius: 2%;">
+        First name: <br><input type="text" name="first_name" />
+        <br>
+        Last name: <br><input type="text" name="last_name" />
+        <br>
+        Password: <br><input type="password" name="password" /> <!--type passwor hide the text-->
+        <br>
+        </div>
+        <span class ="a" width ="20%" height="60%">
+            box1<br>
+            box2<br>               <img src="front.JPG" height="66px" width="66px">  <img src="download.png" height="66px" width="66px">
+            box3<br>
+            box4<br>
+            box5
+        </span>
+      
+    </form>
+</body>
+
+</html>
